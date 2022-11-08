@@ -1,0 +1,13 @@
+version: v2.0
+
+on:
+  push: [ "*" ]
+  mr: [ "*" ]
+
+steps:
+  - run: |
+      echo hello world
+
+notices:
+  # 执行完毕后，发送企业微信通知
+  - type: wework-message
