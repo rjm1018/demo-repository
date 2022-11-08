@@ -6,7 +6,7 @@ on:
 
 steps:
   - run: |
-      echo hello world
+      echo hello world !
 
 notices:
   # 执行完毕后，发送企业微信通知
