@@ -1,5 +1,7 @@
 package service
 
-func init() {
+import "fmt"
 
+func init() {
+	fmt.Println("init service")
 }
